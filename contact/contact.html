@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TosWeb - Phone Shop</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="/css/contact.css">
+</head>
+<body>
+    <!-- ===== Start Navbar ===== -->
+    <div class="nav">
+        <div class="container nav_container">
+            <a href="" class="logo_box"><h1 class="logo">TosWeb</h1></a>
+            <ul class="nav_list">
+              <li class="nav_item"><a href="/index.html" class="nav_link">Home</a></li>
+              <li class="nav_item dropdown">
+                <a class="nav_link">Products</a>
+                <ul class="dropdown_menu">
+                  <li><a href="/products/apple.html" class="dropdown_link">Apple</a></li>
+                  <li><a href="/products/samsung.html" class="dropdown_link">Samsung</a></li>
+                  <li><a href="/products/huawei.html" class="dropdown_link">Huawei</a></li>
+                  <li><a href="/products/smartwatch.html" class="dropdown_link">Smart Watch</a></li>
+                </ul>
+              </li>
+              <li class="nav_item dropdown">
+                <a class="nav_link">Accessories</a>
+                <ul class="dropdown_menu">
+                  <li><a href="/accessories/headphone.html" class="dropdown_link">Head Phone</a></li>
+                  <li><a href="/accessories/routerwireless.html" class="dropdown_link">Router Wireless</a></li>
+                  <li><a href="/accessories/connector.html" class="dropdown_link">Connector</a></li>
+                </ul>
+              </li>
+              <li class="nav_item"><a href="/contact/contact.html" class="nav_link">Contact Us</a></li>
+            </ul>       
+            <div class="nav_icons">
+                <i class="fa fa-heart nav_icon"></i>
+                <i class="fa fa-bag-shopping nav_icon"></i>
+                <i class="fa fa-user nav_icon"></i>
+            </div>
+        </div>
+    </div>
+    <!-- ===== End Navbar ===== -->
+
+<!-- ===== Contact Section Start ===== -->
+<section class="contact section" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="section-title padd-15">
+                <h2>Contact Me</h2>
+            </div>
+        </div>
+        <h3 class="contact-title padd-15">Do You Have Any Questions ?</h3>
+        <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+        <div class="row">
+            <!-- ===== Contact info item Start ===== -->
+            <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-phone"></i></div>
+                <h4>Call Me On</h4>
+                <p>+855 11 599 565</p>
+            </div>
+            <!-- ===== Contact info item End ===== -->
+            <!-- ===== Contact info item Start ===== -->
+            <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                <h4>Office</h4>
+                <p>Phnom Penh, Cambodia</p>
+            </div>
+            <!-- ===== Contact info item End ===== -->
+            <!-- ===== Contact info item Start ===== -->
+            <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <h4>Email</h4>
+                <p>chea.sovannara17@gmail.com</p>
+            </div>
+            <!-- ===== Contact info item End ===== -->
+            <!-- ===== Contact info item Start ===== -->
+            <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                <h4>Website</h4>
+                <p>www.domain.com</p>
+            </div>
+            <!-- ===== Contact info item End ===== -->
+        </div>
+        <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+        <h4 class="contact-sub-title padd-15">I'M VERY RESPOSIVE TO MESSAGES</h4>
+        <!-- ===== Contact Form ===== -->
+        <form class="contact-form padd-15" action="https://api.web3forms.com/submit" method="POST">
+
+            <!-- Replace with your Access Key -->
+            <input type="hidden" name="access_key" value="fcc10209-b2ec-4de5-a619-90ec60cc59f1">
+        
+            <!-- Form Inputs. Each input must have a name="" attribute -->
+            <div class="row">
+                <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Name" name="name" required>
+                    </div>
+                </div>
+                <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email" name="email" required>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                        <textarea class="form-control" id="" placeholder="Message" name="message" required></textarea>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Honeypot Spam Protection -->
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+        
+            <!-- Custom Confirmation / Success Page -->
+            <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+        
+            <button type="submit" class="btn">Send Message</button>
+        
+        </form>
+    </div>
+</section>
+<!-- ===== Contact Section End ===== -->
+
+    <!-- ===== Start Footer ===== -->
+    <div class="footer">
+        <div class="container footer_container">
+            <div class="footer_section">
+                <a href="#" class="logo_box"><h1 class="logo">TosWeb</h1></a>
+                <p class="footer_p">
+                    Welcome to our store! Discover the latest gadgets, electronics, and accessories at unbeatable prices. Shop with confidence and enjoy fast delivery, secure payments, and exceptional customer service.
+                </p>
+            </div>
+            <div class="footer_section">
+                <h4 class="footer_section_title">Quick Links</h4>
+                <ul class="footer_list">
+                    <li class="footer_items">
+                        <a href="#" class="footer_link">
+                            <span>Apple</span>
+                        </a>
+                    </li>
+                    <li class="footer_items">
+                        <a href="#" class="footer_link">
+                            <span>Samsung</span>
+                        </a>
+                    </li>
+                    <li class="footer_items">
+                        <a href="#" class="footer_link">
+                            <span>Smart Watch</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_section">
+                <h4 class="footer_section_title">Follow Us</h4>
+                <ul class="footer_list">
+                    <li class="footer_items">
+                        <a href="https://www.facebook.com" target="_blank" class="footer_link">
+                            <i class="fa-brands fa-facebook footer_icon"></i>
+                            <span>Facebook</span>
+                        </a>
+                    </li>
+                    <li class="footer_items">
+                        <a href="https://www.instagram.com" target="_blank" class="footer_link">
+                            <i class="fa-brands fa-instagram footer_icon"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </li>
+                    <li class="footer_items">
+                        <a href="https://www.telegram.org" target="_blank" class="footer_link">
+                            <i class="fa-brands fa-telegram footer_icon"></i>
+                            <span>Telegram</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- ===== End Footer ===== -->
+</body>
+</html>
